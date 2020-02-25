@@ -18,14 +18,16 @@ class App extends Component {
   render() {
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
-      <div className="App" id="home">
+      <div className="App" id="home" tabIndex="-1">
         <Header />
-        <Welcome />
-        <About />
-        <Events />
-        <Community />
-        <CodeOfConduct />
-        <Contact />
+        <main id="main" tabIndex="-1">
+          <Welcome />
+          <About />
+          <Events />
+          <Community />
+          <CodeOfConduct />
+          <Contact />
+        </main>
       </div>
     );
   }

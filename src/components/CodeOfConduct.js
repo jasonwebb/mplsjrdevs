@@ -10,7 +10,7 @@ class CodeOfConduct extends Component {
 
   render() {
     return (
-      <section id="code-of-conduct">
+      <section id="code-of-conduct" tabIndex="-1">
         <h2>Code of Conduct</h2>
         <p className="padded">
           We are dedicated to providing an open, welcoming, and inclusive

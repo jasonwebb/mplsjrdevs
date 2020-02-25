@@ -68,7 +68,7 @@ class Events extends Component {
 
   renderError() {
     return (
-      <section id="events">
+      <section id="events" tabIndex="-1">
         <h2>Hang tight...</h2>
         <h3>We can't access the event schedule right now. Try again later.</h3>
       </section>
@@ -76,7 +76,7 @@ class Events extends Component {
   }
   renderLoading() {
     return (
-      <section id="events">
+      <section id="events" tabIndex="-1">
         <h2>Loading events...</h2>
         <h3>Upcoming get-togethers arriving in three...two...one...</h3>
       </section>
@@ -105,7 +105,7 @@ class Events extends Component {
     let moreEvents = pastEvents.slice(3);
 
     return (
-      <section id="events">
+      <section id="events" tabIndex="-1">
         <h2>Events</h2>
         <h3>Upcoming</h3>
         {nextEvent ? (

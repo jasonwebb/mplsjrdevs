@@ -7,7 +7,7 @@ import faQuestion from '@fortawesome/fontawesome-free-solid/faQuestion';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" tabIndex="-1">
       <h2>Contact</h2>
       <div className="flex-container">
         <div className="contact-method">
@@ -66,7 +66,8 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               email us
-            </a>.
+            </a>
+            .
           </div>
         </div>
         <div className="divider" />
@@ -81,14 +82,16 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               @mplsjrdevs
-            </a>.
+            </a>
+            .
           </div>
         </div>
         <div className="divider" />
         <div className="contact-method">
           <FontAwesomeIcon icon={faQuestion} size="4x" />
           <div className="contact-text">
-            Got questions?<br />
+            Got questions?
+            <br />
             <br />
             <a
               href="mailto:mplsjrdevs@gmail.com"

@@ -51,7 +51,7 @@ class Community extends Component {
 
   render() {
     return (
-      <section id="community">
+      <section id="community" tabIndex="-1">
         <h2>Community</h2>
         <div className="flex-container">
           <div className="carousel-container">
