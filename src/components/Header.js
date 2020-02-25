@@ -54,7 +54,10 @@ class Header extends Component {
       <header id="header">
         <Navbar className="bg-pink">
           <NavbarGroup align={Alignment.LEFT}>
-            <img src={logo} className="logo" alt="Mpls Jr Devs" />
+            <h1>
+              <img src={logo} className="logo" alt="" />
+              Mpls Jr. Devs
+            </h1>
           </NavbarGroup>
           <NavbarGroup align={Alignment.RIGHT}>{menu}</NavbarGroup>
         </Navbar>
