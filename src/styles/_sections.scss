@@ -32,6 +32,22 @@
   height: 40px;
 }
 
+nav {
+  ul {
+    li {
+      display: inline-block;
+      margin-bottom: -2px;
+      vertical-align: bottom;
+
+      a {
+        min-height: 40px;
+        min-width: 40px;
+        padding: 5px 12px;
+      }
+    }
+  }
+}
+
 .pt-popover-content {
   width: 12.5rem;
 }
