@@ -3,7 +3,7 @@ import EventImage from '../images/mplsjrdevs1.jpg';
 
 const About = () => {
   return (
-    <section id="about" tabindex="-1">
+    <section id="about" tabIndex="-1">
       <div className="content-wrap">
         <h2>About Mpls Jr Devs</h2>
         <p>
