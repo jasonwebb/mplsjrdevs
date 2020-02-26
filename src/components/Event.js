@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@blueprintjs/core';
 import moment from 'moment';
 import _isEmpty from 'lodash/isEmpty';
 
@@ -47,18 +46,22 @@ const Event = props => {
     ) {
       registerButton = (
         <div className="register">
-          <a href={props.event_url} target="_blank" rel="noopener noreferrer">
-            <Button text="Register" className="pt-large button" />
+          <a
+            href={props.event_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pt-button pt-large button"
+          >
+            Register
           </a>
         </div>
       );
     } else {
       registerButton = (
         <div className="register">
-          <Button
-            text={`Registration opens ${ticketReleaseDate.format('MMM Do')}`}
-            className="pt-large pt-disabled button disabled"
-          />
+          <span class="pt-button pt-large pt-disabled button disabled">
+            Registration opens {ticketReleaseDate.format('MMM Do')}
+          </span>
         </div>
       );
     }
