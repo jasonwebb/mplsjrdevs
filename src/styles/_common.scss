@@ -33,6 +33,26 @@ img.responsive {
   text-align: center;
 }
 
+.skip-to-content {
+  position: absolute;
+  left: 15px;
+  top: -50px;
+
+  z-index: 100;
+  background-color: white;
+  padding: 10px 20px;
+
+  transition: top .2s ease-in-out;
+
+  &:focus {
+    left: 15px;
+    top: 15px;
+
+    outline: 5px dashed $light-blue;
+    outline-offset: 3px;
+  }
+}
+
 .bg-pink,
 .MenuDropDown.bg-pink {
   background-color: $pink;

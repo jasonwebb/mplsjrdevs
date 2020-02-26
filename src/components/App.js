@@ -19,6 +19,10 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="App" id="home" tabIndex="-1">
+        <a href="#main" className="skip-to-content">
+          Skip to main content
+        </a>
+
         <Header />
         <main id="main" tabIndex="-1">
           <Welcome />
