@@ -96,6 +96,10 @@ h1 {
     h2 {
       margin-bottom: 1.5rem;
     }
+
+    p:first-of-type {
+      margin-bottom: 20px;
+    }
   }
 
   @media (max-width: $laptop) {
@@ -317,6 +321,10 @@ h1 {
 
   .padded {
     padding: 10px 0;
+  }
+
+  .button.CodeofConduct {
+    margin-top: 10px;
   }
 }
 

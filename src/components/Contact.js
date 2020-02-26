@@ -90,17 +90,17 @@ const Contact = () => {
         <div className="contact-method">
           <FontAwesomeIcon icon={faQuestion} size="4x" />
           <div className="contact-text">
-            Got questions?
-            <br />
-            <br />
-            <a
-              href="mailto:mplsjrdevs@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email us
-            </a>{' '}
-            and we&#39;ll be in touch.
+            <p>Got questions?</p>
+            <p>
+              <a
+                href="mailto:mplsjrdevs@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email us
+              </a>{' '}
+              and we&#39;ll be in touch.
+            </p>
           </div>
         </div>
       </div>

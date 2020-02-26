@@ -10,8 +10,8 @@ const About = () => {
           Our priority is to make space for aspiring and less experienced
           software engineers to meet, learn from, and share experiences with one
           another.
-          <br />
-          <br />
+        </p>
+        <p>
           We put on monthly events to help both ourselves and others like us.
         </p>
       </div>

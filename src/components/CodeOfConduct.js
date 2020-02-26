@@ -15,8 +15,8 @@ class CodeOfConduct extends Component {
         <p className="padded">
           We are dedicated to providing an open, welcoming, and inclusive
           community.
-          <br />
-          <br />
+        </p>
+        <p>
           As such, we have a code of conduct that we expect all of our members
           to follow.
         </p>
