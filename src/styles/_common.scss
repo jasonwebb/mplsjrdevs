@@ -70,12 +70,12 @@ img.responsive {
 .show-events-button.button,
 #mc_embed_signup .button,
 .button {
-  background-color: $light-pink;
+  background-color: #E90464;
   background-image: none;
   box-shadow: none;
   color: $white;
   &:hover {
-    background-color: $pink;
+    background-color: darken(#E90464, 7%);
   }
 
   @media (max-width: $tablet) {
