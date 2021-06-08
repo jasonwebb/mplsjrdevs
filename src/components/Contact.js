@@ -7,7 +7,7 @@ import faQuestion from '@fortawesome/fontawesome-free-solid/faQuestion';
 
 const Contact = () => {
   return (
-    <section id="contact" tabIndex="-1">
+    <footer id="contact">
       <h2>Contact</h2>
       <div className="flex-container">
         <div className="contact-method">
@@ -26,12 +26,12 @@ const Contact = () => {
               noValidate
             >
               <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Email address:</label>
                 <input
                   type="email"
                   name="EMAIL"
                   className="email"
                   id="mce-EMAIL"
-                  placeholder="email address"
                   required
                 />{' '}
                 <div id="mc_hidden" aria-hidden="true">
@@ -90,21 +90,21 @@ const Contact = () => {
         <div className="contact-method">
           <FontAwesomeIcon icon={faQuestion} size="4x" />
           <div className="contact-text">
-            <p>Got questions?</p>
-            <p>
-              <a
-                href="mailto:mplsjrdevs@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Email us
-              </a>{' '}
-              and we&#39;ll be in touch.
-            </p>
+            Got questions?
+            <br />
+            <br />
+            <a
+              href="mailto:mplsjrdevs@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email us
+            </a>{' '}
+            and we&#39;ll be in touch.
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
